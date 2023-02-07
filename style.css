@@ -4,23 +4,44 @@
 
 /* body styles */
 body {
-    background-color: beige;
+    background-color: white;
 }
 
 /* article styles */
 article {
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(105,95,112);
+    background: linear-gradient(90deg, rgba(105,95,112,1) 0%, rgba(255,255,255,0.5494572829131652) 56%, rgba(166,159,148,1) 100%);
+    border-radius: 0.75em;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
 }
 
 /* header styles */
 header {
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
-    color: white
+    color: white;
+    border-radius: 0.75em;
+    padding: 20px;
+    box-shadow: 10px 5px 5px black;
+    text-shadow: 10px 5px 5px black;
 }
 
 /* link styles */
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: 100px;
+    border-color: lightseagreen;
+    border-radius: 0.75em;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.subheading {
+    border-bottom: solid 20px gray;
 }
